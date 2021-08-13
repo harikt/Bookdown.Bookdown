@@ -46,15 +46,15 @@ class ConversionProcessTest extends \PHPUnit_Framework_TestCase
 <thead>
 <tr>
 <th>th</th>
-<th align="center">th(center)</th>
-<th align="right">th(right)</th>
+<th style="text-align: center">th(center)</th>
+<th style="text-align: right">th(right)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>td</td>
-<td align="center">td</td>
-<td align="right">td</td>
+<td style="text-align: center">td</td>
+<td style="text-align: right">td</td>
 </tr>
 </tbody>
 </table>

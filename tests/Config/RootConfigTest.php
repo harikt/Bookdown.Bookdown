@@ -23,7 +23,7 @@ class RootConfigTest extends \PHPUnit_Framework_TestCase
         "numbering": "decimal",
         "extensions": {
             "commonmark": [
-                "Webuni\\\\CommonMark\\\\TableExtension\\\\TableExtension",
+                "League\\\\CommonMark\\\\Ext\\\\Table\\\\TableExtension",
                 "Webuni\\\\CommonMark\\\\AttributesExtension\\\\AttributesExtension"
             ]
         }
@@ -71,7 +71,7 @@ class RootConfigTest extends \PHPUnit_Framework_TestCase
 
         $extensions = $config->getCommonMarkExtensions();
 
-        $this->assertContains('Webuni\\CommonMark\\TableExtension\\TableExtension', $extensions);
+        $this->assertContains('League\\CommonMark\\Ext\\Table\\TableExtension', $extensions);
         $this->assertContains(
             'Webuni\\CommonMark\\AttributesExtension\\AttributesExtension',
             $extensions

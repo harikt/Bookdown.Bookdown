@@ -19,7 +19,7 @@ class BookFixture
         },
         "extensions": {
             "commonmark": [
-                "Webuni\\\\CommonMark\\\\TableExtension\\\\TableExtension",
+                "League\\\\CommonMark\\\\Ext\\\\Table\\\\TableExtension",
                 "Webuni\\\\CommonMark\\\\AttributesExtension\\\\AttributesExtension"
             ]
         },
